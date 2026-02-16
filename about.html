@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en"><!-- Basic -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Metas -->
+	<title>Restaurant</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Site Icons -->
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+					<h3>Restaurante</h3>
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Inicio</a></li>
+						<li class="nav-item"><a class="nav-link" href="menu.html">Menú</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+						<li class="nav-item"><a class="nav-link" href="reservation.html">Reserva</a></li>
+						<li class="nav-item"><a class="nav-link" href="gallery.html">Fotos</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contáctanos</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	<br><br><br><br>
+	<!-- Start About -->
+	<div class="about-section-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6">
+					<img src="images/about-img.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 text-center">
+					<div class="inner-column">
+						<h1>🌸 Sakura House 🌸</h1>
+						<h4>Nuestra Historia</h4>
+						<p>Todo comenzó con un viaje a Japón y una pasión profunda por su cultura gastronómica.
+							Entre calles iluminadas por faroles rojos y pequeños restaurantes tradicionales, 
+							nació el sueño de crear un espacio donde cada plato transmitiera la esencia del 
+							verdadero sabor japonés. </p>
+						<p>Inspirados en la filosofía del “Kokoro” —cocinar con el corazón— decidimos abrir 
+							nuestras puertas con un propósito claro: ofrecer una experiencia auténtica, donde 
+							la frescura de los ingredientes, la precisión en cada corte y el respeto por la 
+							tradición fueran nuestra identidad.</p>
+						<a class="btn btn-lg btn-circle btn-outline-new-white" href="reservation.html">Reserva</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
+
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>Teléfono</h4>
+						<p class="lead">
+							+57 390-897-5000
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>Correo</h4>
+						<p class="lead">
+							sakura_house@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>Dirección</h4>
+						<p class="lead">
+							Cr 200 # 354-14, Bogotá
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+
+	<!-- Start Footer -->
+	<footer class="footer-area bg-f">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6">
+					<h3>Reservas</h3>
+					<p>Recuerda reservar con 3 días de anticipación.<br>
+						Pregunta por nuestras decoraciones especiales.</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Horario</h3>
+					<p><span class="text-color">Lunes-Miércoles : </span>Cerrado</p>
+					<p><span class="text-color">Jueves-Viernes :</span> 3:00pm-10:00pm</p>
+					<p><span class="text-color">Sábado-Domingo :</span> 3:00pm-11:30pm</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Contacto</h3>
+					<p>Cr 200 # 354-14</p>
+					<p>Bogotá, Colombia</p>
+					<p>info@sakurahouse.com</p>
+				</div>
+				<div class="col-lg-3 col-md-6">
+					<h3>Subscribete</h3>
+					<div class="subscribe_form">
+						<form class="subscribe_form" method="POST" action="php/subscription.php">
+							<input name="email" id="subs-email" class="form_input" placeholder="Correo Electrónico..."
+								type="email" required data-error="Ingresa tu correo">
+							<div class="help-block with-errors"></div>
+							<button name="subscribe" type="submit" class="submit">SUBSCRIBIR</button>
+							<div class="clearfix"></div>
+						</form>
+					</div>
+					<ul class="list-inline f-social">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-google-plus"
+									aria-hidden="true"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<p class="company-name"> Sakura House By Luisa Camelo
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+	<!-- End Footer -->
+
+	<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+	<!-- ALL JS FILES -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<!-- ALL PLUGINS -->
+	<script src="js/jquery.superslides.min.js"></script>
+	<script src="js/images-loded.min.js"></script>
+	<script src="js/isotope.min.js"></script>
+	<script src="js/baguetteBox.min.js"></script>
+	<script src="js/form-validator.min.js"></script>
+	<script src="js/contact-form-script.js"></script>
+	<script src="js/custom.js"></script>
+	
+</body>
+
+</html>
