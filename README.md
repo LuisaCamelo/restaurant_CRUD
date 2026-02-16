@@ -51,9 +51,24 @@ All forms are validated both on frontend and backend for better security.
 
 ## 📷 Screenshots
 
-(Add screenshots here)
+### 🏠 Home Page
+![Home](screenshots/Sakura_Home.png)
 
----
+### 🏠 About Us Page
+![AboutUs](screenshots/Sakura_AboutUs.png)
+
+### 🏠 Gallery Page
+![Gallery](screenshots/Sakura_Gallery.png)
+
+### 🏠 Menu Page
+![Menu](screenshots/Sakura_Menu.png)
+![Menu](screenshots/Sakura_Menu2.png)
+
+### 🍽️ Reservation Form
+![Reservation](screenshots/Sakura_Reserve.png)
+
+### 📩 Contact Form
+![Contact](screenshots/Contact.png)
 
 ## 👩🏻‍💻 Author
 
